@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class A{
+	public static void main(String []args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value is:");
+		int n=sc.nextInt();
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(" ");
+			}
+			for (int k=n;k>=i;k--)
+			{
+				System.out.print(" *");
+			}
+			System.out.println("");
+			}
+		for(int a=1;a<=n;a++)
+		{
+			for(int b=n;b>=a;b--)
+			{
+				System.out.print(" ");
+			}
+			for(int c=1;c<=a;c++)
+			{
+				System.out.print(" *");
+			}
+			System.out.println("");
+}
+	}
+}
